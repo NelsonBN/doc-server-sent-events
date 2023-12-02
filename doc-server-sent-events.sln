@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo.WebClient", "Demo.WebClient", "{6BD78A65-E059-4FA4-809D-1EB1CC4690AB}"
+	ProjectSection(SolutionItems) = preProject
+		src\Demo.WebClient\index.html = src\Demo.WebClient\index.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Api", "src\Demo.Api\Demo.Api.csproj", "{CB5F5AA8-2DCF-4371-90B4-B5087C5ABDB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5F5AA8-2DCF-4371-90B4-B5087C5ABDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5F5AA8-2DCF-4371-90B4-B5087C5ABDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5F5AA8-2DCF-4371-90B4-B5087C5ABDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5F5AA8-2DCF-4371-90B4-B5087C5ABDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91A94AF-B658-4AF0-B5C8-9BBB55845AEB}
+	EndGlobalSection
+EndGlobal

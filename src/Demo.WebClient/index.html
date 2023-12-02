@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo Websockets WebClient</title>
+    </head>
+    <body>
+        <script>
+            const eventSource = new EventSource('http://localhost:8080/sse?msg=It%20is%20me%20Mario!');
+
+
+            eventSource.onopen = () => console.log('CONNECTION STARTED');
+
+            eventSource.onerror = (event) => console.error("ERROR: ", event);
+            eventSource.onmessage = (event) => console.log('Message from server: ', event.data);
+
+            eventSource.addEventListener('myevent', (event) => console.log('Message from server (myevent): ', event.data));
+        </script>
+    </body>
+</html>
